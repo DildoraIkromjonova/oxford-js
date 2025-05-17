@@ -17,7 +17,7 @@
 //     break;
 //   }
 
-//   if (+number > 100) {
+//   if (number > 100) {
 //     alert("Rahmat! Siz 100 dan katta son kiritdingiz.");
 //     break;
 //   }
