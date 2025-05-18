@@ -4,11 +4,18 @@
 //   }
 //   funcName();
 
+// let num1 =5
+// let num2 =10
+
+//   function cancAtion(a, b){
+//     console.log( a+b)
+//   }
+
+// cancAtion( num1,num2 )         
+
 let num1 =5
 let num2 =10
-
-  function cancAtion(a, b){
-    console.log( a+b)
+  function cancAtion(){
+    console.log( num1-num2)
   }
-
-cancAtion( num1,num2 )                                                                                       
+cancAtion() 
