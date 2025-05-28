@@ -7,17 +7,17 @@
 // newObj.name = "Urmat";
 // console.log(obj)
 
-// let obj ={
-//     id:1,
-//     name:"toshmat",
-//     status:"talaba",
-//     age:20,
-//    address:"center",
-// } 
+let obj ={
+    id:1,
+    name:"toshmat",
+    status:"talaba",
+    age:20,
+   address:"center",
+} 
 
-// for(let key in obj){
-//     console.log(obj[key])
-// }
+for(let key in obj){
+    console.log(obj[key])
+}
 
 
 
