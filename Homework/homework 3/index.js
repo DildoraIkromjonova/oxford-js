@@ -46,3 +46,27 @@
 // console.log( undefined + 1)
 // console.log("\t \n " -2)
 // =============================
+// let a = 1, b = 1;
+// let c = ++a;
+// let d = b++;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// ==========================
+// console.log(null || 2 && 3 || 4)
+// ============================
+// console.log(5 > 4)
+// console.log("apple" > "pineapple")
+// console.log("2" > "12")
+// console.log(undefined == null)
+// console.log(undefined === null)
+// console.log(null == "\n0\n")
+// console.log(null === +"\n0\n")
+// ==============================
+// let a = 2
+// let x = 1 + ( a *=2)
+// console.log(a)
+// console.log(x)
+// ==============================
+
