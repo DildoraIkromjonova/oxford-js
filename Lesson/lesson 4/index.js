@@ -38,17 +38,20 @@
 //     console.log( max, min)
 //     console.log( max - min)
 // ========================================
-let car 
-switch (car) {
-    case "Damas":
-        console.log("Bu mashina Damas")
-        break;
-    case " nexia":
-        console.log("Bu mashina nexia")  
-        break;
-    case " Malibu":
-        console.log( "Bu mashina Malibu")
-        break;
-    default :
-    console.log("Bu mashina mavjud emas") 
-}
+// let car 
+// switch (car) {
+//     case "Damas":
+//         console.log("Bu mashina Damas")
+//         break;
+//     case " nexia":
+//         console.log("Bu mashina nexia")  
+//         break;
+//     case " Malibu":
+//         console.log( "Bu mashina Malibu")
+//         break;
+//     default :
+//     console.log("Bu mashina mavjud emas") 
+// }
+// ===================================================
+// let age = 12
+// age > 12 ? console.log("Ha katta") : console.log(" Yo'q kichik");    

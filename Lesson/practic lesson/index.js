@@ -26,9 +26,11 @@
 // else{
 //     console.log("Xato raqam kiritdingiz");
 // // }
+// ===========================================
 // let a = 3
 // let b = 4
 // let c = 10
+//=======================================
 // if( a > b && a > c){
 //     console.log(a , "Katta")
 //     max = a
