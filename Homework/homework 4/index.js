@@ -1,25 +1,26 @@
-// let a = Number(prompt("Butun sonni kiriting:"));
-// if (a > 0) {
-//   a++
+// let login = "";
+//  let message = (login == "Employee") ? "Hello" :
+//   (login == "Director") ? "Greetings":
+//   (login == "") ? "No login":
+//  " ";
+//  console.log(message)
+// ==============================================
+// let a
+// let b
+// let result = (a + b < 4)? "Below":"Over";
+// console.log(result);
+// ================================================
+// let age = 12;
+// switch (true) {
+//     case (age > 2 && age < 7):
+//         console.log("Bu bola Bog'chada o'qiydi");
+//         break;
+//     case (age >= 7 && age <= 18):
+//         console.log("Bu bola maktabda o'qiydi");
+//         break;
+//     case (age >= 18 && age <= 30):
+//         console.log("Bu bola Talaba");
+//         break;
+//     default:
+//         console.log("Siz xato yosh kiritingiz");
 // }
-// console.log(a);
-// ===================================================
-// let b = Number(prompt("Butun sonni kiriting:"));
-// if (b > 0) {
-//   b++; 
-// } else {
-//   b--;
-// }
-// console.log(b);
-// ======================================================
-// let c = Number(prompt("Sonni kiriting:"));
-// if ( c > 0) {
-//   c++;
-// } else if (c < 0) {
-//   c--;
-// } else {
-//   c = 10;
-// }
-// console.log(c);
-// ========================================================
-
