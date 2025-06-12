@@ -17,4 +17,11 @@
 //     }
 // }
 // ===============================================
+// for(; ;){
+//     let i = prompt( `Qiymat kiriting`);
+//     let num = i === null ? i : Number(i);
+//     if(num > 100 || num === null) break;
+//     else continue;
+// }
+
 
