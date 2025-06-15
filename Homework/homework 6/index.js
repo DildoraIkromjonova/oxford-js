@@ -11,10 +11,10 @@
 // =================================================
 // let number;
 // do {
-//   number = prompt("Iltimos, 100 dan katta son kiriting:", "");
+//   number = prompt("Iltimos, 100 dan katta son kiriting:", );
 // } while (number !== null && number !== "" && +number <= 100);
 // ================================================================
-// let number = prompt("Iltimos, 100 dan katta son kiriting:", "");
+// let number = prompt("Iltimos, 100 dan katta son kiriting:" );
 // while (number !== null && number !== "" && +number <= 100) {
-//   number = prompt("Iltimos, 100 dan katta son kiriting:", "");
+//   number = prompt("Iltimos, 100 dan katta son kiriting:" );
 // }
