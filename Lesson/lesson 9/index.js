@@ -6,7 +6,7 @@
 // };
 // console.log(obj1 === obj2);
 // console.log(obj1 == obj2);
-
+// =============================
 // let a = 10
 // let b = 10
 
