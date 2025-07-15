@@ -23,7 +23,7 @@
 // let shoppingCart = fruits;
 // shoppingCart.push("Banana");
 // console.log(fruits);
- 
+
 // terminalda chiqadigan javb
 
 // [ 'Apples', 'Pear', 'Orange', 'Banana' ]
@@ -39,3 +39,20 @@
 
 // javobda [ 'a', 'b', [Function]] chiqadi 
 
+// ===============================================================
+// ================================================================
+// ================================================================
+// function sumInput() {
+//     let arr = []
+//     let sum = 0
+//     while (true) {
+//         let value = prompt("Raqam qiymat kiriting")
+//         if (value && !value.includes(" ")) arr.push(value);
+//         else break
+//     }
+//     for (let value of arr) sum += Number(value)
+//     return sum
+// }
+//  console.log(sumInput())
+
+// javobi  45 chiqadi 
