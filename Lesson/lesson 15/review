@@ -1,0 +1,8 @@
+// Adwenced Array///
+
+// Array.filter- bu method ishlatilishdan maqsad array elementlarini bizning shartga togri kelganini qoldiradi , qolganini chiqarib tashlaydi.
+// Array.map - bu returnga qaytadi ya'ni return mapdan ishlaydi.
+// Array.forEach - bu har bir elementning navbati bilan funksiya bajaradi.
+// Array.find - bu shartga mos birinchi elementni qaytaradi.
+// Array.findIndex - bu shartga mos birinchi elementning indexni qaytaradi.(-1)
+// array.lastfindIndex- bu shartga mos oxirgi indexni qaytaradi . (-1)
