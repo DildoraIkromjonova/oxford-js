@@ -20,7 +20,7 @@
 //   newObj.child.surName = "Toshmatov"
 //   obj.child.getFullName()
 //   newObj.child.getFullName()
-// =============================================
+// ===============================================
 // let str = "Algoritm_6 and Oxford_2.!"
 // let newstr = str.toLowerCase()
 // let result = ""

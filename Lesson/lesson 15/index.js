@@ -38,3 +38,10 @@
 // let arr = [5, 12, 8, 130, 44];
 // let index = arr.findLastIndex(x => x > 10);
 // console.log(index);
+let arr = [1,2,3,4]
+let arr2 = arr.map((value)=>{
+    return 
+})
+console.log(arr2)
+
+
