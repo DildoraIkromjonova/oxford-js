@@ -2,6 +2,8 @@ let todos = [];
 
 document.getElementById("add-btn").addEventListener("click", addTodo);
 document.getElementById("clear-btn").addEventListener("click", clearAll);
+  document.getElementById()
+
 
 function addTodo() {
   const input = document.getElementById("todo-input");
@@ -39,3 +41,6 @@ function renderTodos() {
   document.getElementById("task-count").innerText = 
     `You have ${todos.length} pending ${todos.length === 1 ? "task" : "tasks"}`;
 }
+
+
+

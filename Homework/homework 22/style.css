@@ -1,0 +1,125 @@
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+ }
+
+ body {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(#68e4cc, #4a87e4);
+ }
+
+ .form {
+   width: 400px;
+   height: 500px;
+   border-radius: 5px;
+   background-color: white;
+   padding: 25px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ .list_wrapper {
+   flex: 1;
+   overflow-y: auto;
+   margin-top: 20px;
+   padding-right: 5px;
+ }
+
+ .form__create {
+   height: 38px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 5px;
+ }
+
+ .myInput {
+   width: 100%;
+   height: 100%;
+   outline: none;
+   border-radius: 2px;
+   border: 1px solid #aaa;
+   padding: 0 10px;
+   transition: 0.3s;
+ }
+
+ .myInput:focus {
+   border: 1px solid blueviolet;
+ }
+
+ .myBtn {
+   padding: 0 13px;
+   color: white;
+   background-color: blueviolet;
+   border: none;
+   cursor: pointer;
+   border-radius: 2px;
+   height: 100%;
+   transition: 0.3s;
+ }
+
+ .myBtn:active,
+ .clear_btn:active {
+   transform: scale(0.9);
+ }
+
+ .list {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 15px;
+ }
+
+ .item {
+   width: 100%;
+   height: 38px;
+   background: #ddd;
+   border-radius: 2px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 10px;
+ }
+
+ .item_title {
+   font-size: 15px;
+ }
+
+ .item_delete_btn {
+   border: none;
+   border-radius: 0 2px 2px 0;
+   background: #f16c68;
+   height: 100%;
+   color: white;
+   padding: 0 13px;
+   cursor: pointer;
+   transition: 0.3s;
+ }
+
+ .all_items {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 10px;
+ }
+
+ .all_items_title {
+   font-size: 15px;
+ }
+
+ .clear_btn {
+   background: blueviolet;
+   color: white;
+   border: none;
+   border-radius: 2px;
+   cursor: pointer;
+   padding: 7px 13px;
+   transition: 0.3s;
+ }
