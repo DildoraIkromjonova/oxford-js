@@ -29,13 +29,13 @@
 //     return value
 // })
 // console.log(newArr)
-// flatmap bu nested ichidagi arrylarni bitta qoshimcha qib beradi yani falt va mapni aralshmasi
-// =========================================================================================
+// flatmap bu nested ichidagi arrylarni bitta qoshimcha qib beradi yani flat va mapni aralshmasi
+// // =========================================================================================
 // let arr = [1, 2, 3, 4]
 // let arr2 = [10, 20, 30, 40]
 // let newArr =  arr.fill([10, 20, 30], 4)
-// console.log(newar)
-// =====================================================
+// // console.log(newar)
+// // =====================================================
 // let arr = [1, 2, 3, 4]
 // let newArr = arr.copyWithin(0,2)
 // console.log(newArr)
