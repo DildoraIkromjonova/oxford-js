@@ -1,6 +1,6 @@
-// var name = "Eshmat"
-// console.log("Eshmat")
-// console.log(name)
+var name = "Eshmat"
+console.log("Eshmat")
+console.log(name)
  
 // let number = 12
 // console.log(12)
