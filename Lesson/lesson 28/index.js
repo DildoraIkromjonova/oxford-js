@@ -1,75 +1,61 @@
+// function squareSum(numbers){
+//   let sum = numbers.reduce((acc,current)=> {
+//     return acc +current **2
+//   } , 0)
+//   return sum
+//   }
 
-// let sum = 0
-// for(let i=0; i<arr.length;i++){
-// let num = parseFloat(arr[i])
-// if(!isNaN(num))
-//   sum +=num
+// console.log(squareSum([]))
+// =======================================
+// function findSmallestInt(arr){
+//   return Math.min(...arr)
 // }
-// console.log(sum)
-// ==================================================================
-// reduce - arraydagi qiymatlarni yigindisini hisoblab berish uchun .
-// let arr1 = arr.reduce((sum,current,index,array)=>{
-//   if(current % 2 === 0){
-//     return sum += current
+// console.log(findSmallestInt([34,15,88,2]))
+// ===============================================
+// const stringToNumber = function(str){
+//   let num = Number(str)
+//   return num
+// }
+// console.log(stringToNumber("1234"))
+// =============================================
+// var summation = function (num) {
+//   let sum = 0
+//   for(let i = 1; i <= num; i++){
+//     sum += i
 //   }
 //   return sum
-// },0)
-// console.log(arr1)
-// =========================================================
-// let arr = [2,5,1,4,8,10]
-// let arr1 = arr.reduce ((sum,current,index,array) =>{
-// if(current % 2 === 0){
-//   sum.juft.push(current)
-// }else{
-//   sum.toq.push(current)
 // }
-// return sum
-// },{juft:[],toq:[]})
-// console.log(arr1)
-// ============================================================
-// mutable va imutable
-// mutable - asl arrayga tasir qiladigan metod
-// imutable - asl arrayga tasir qilmaydigan metodlar
-// ==============================================================
-// let user = {name:"john",age:20}
-// let fruits = ["apple","orange"]
-// let obj = new Map()
-
-// obj.set("true",true)
-// obj.set (user,20)
-// obj.set(fruits,"mevalar")
-// obj.delete("true")
-// obj.clear()
-// //  console.log(obj.forEach())
-// //  obj.forEach((value)=> console.log(value))
-
-// obj.set - mapga qiymat qoshadi
-// obj.get - mapdan key boyiyicha qiymat oladi
-// obj.delete- mapdan key boyicha faqat bitta qiymatni ochiradi
-// // obj.clear- mapdagi qiymatlarni tozalash uchun
-// // obj.has-mapda biz bergan key bor yoki yoqligini tekshiradi
-// // obj.size- mapdagi qiymatlar sonini qaytaradi
-// // obj.keys- mapdagi barcha keylarni qaytaradi
-// // obj.values- mapdagi barcha  valuelarni qaytaradi
-// // ===============================================================
-// let arr1= [1,2,3,4,1,2,3,4,5]
-// let unique = new Set (arr1)
-// console.log(unique)
-// // set - berilgan qiymatlarni (unique ) yagona qib beradi
-// let arr = new Set()
-// let mevalar = ["apelsin","olma"]
-// arr.add("salom")
-// arr.add("xayr")
-// arr.add(mevalar)
-// arr.delete("salom")
-// arr.clear()
-// console.log(arr.size)
-// // arr.add - setga qiymat qoshadi
-// // arr.delete - setdan value boyicha faqat bitta qiymat ochiradi
-// // arr.clear - setdagi qiymatlarni tozalash uchun
-// // arr.size - setdagi barcha qiymatlar soni
-// // arr.has- setda biz bergan qiymat bor yoki yoqligini tekshiradi
-
-
-
-
+// console.log(summation(8))
+// ======================================
+// function countSheeps(sheep) {
+//   return sheep.filter(Boolean).length
+// }
+// console.log(countSheeps([true,true,false]))
+// =============================================
+// function noSpace(x){
+//    return x.replaceAll(" "," ")
+//   }
+//   console.log(noSpace("8 j 8  mBliB8g imjB8B8 jl B"))
+// =================================================
+// function booleanToString(b){
+//   return b.toString()
+// }
+// console.log(booleanToString(true))
+// =====================================================
+// function sum (numbers) {
+//   return numbers.reduce((acc,current)=> acc +current ,0)
+// }
+// console.log(sum([1,2,3,4]))
+// ==============================
+// function digitize(n) {
+//   return String(n)     
+//     .split("")        
+//     .map(Number)       
+//     .reverse();       
+// }
+// console.log(digitize(35231))
+// ============================================
+// function lovefunc(flower1, flower2){
+//   return(flower1 % 2 !== flower2 % 2)
+// }
+// console.log(lovefunc(1,4))

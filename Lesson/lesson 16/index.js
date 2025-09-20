@@ -1,41 +1,31 @@
-// let arr = [10, 20,4,5,7,9,2,3,8,1]
-//  let newArr=arr.sort((a , b)=>{
-// return a- b
-//  })
-// console.log(arr)
-// sort bu tartibszlarni tartibli qib beradi
+// for ( let i = 0; i < 10; i++){
+//     if( i % 2 !== 0)
+//     console.log(i)
+// }
 // =================================================
-// let arr = ["Olma, banan, ananas"]
-// let value = arr.every((value)=>{
-//     return value.includes("a")
-// })
-// console.log(value)
-// every bu barchasida bolsa true boladi
-// ====================================================
-// let arr = ["olma,banan,kivi"]
-// let newArr = arr.some((value)=>{
-//     return value.includes("k")
-// })
-// console.log(newArr)
-// some bu bittasi bosa true beradi 
-// =====================================================
-// let arr = [1, 2, [3, 4, [5, 6, [7, 8,]]]]
-// let newArr = arr.flat(3)
-// console.log(newArr)
-// flat bu nested arrylarni parchalab bitta aryga joylab beradi
-// ============================================================
-// let arr = [1, 2, [3, 4, [5, 6, [7, 8,]]]]
-// let newArr = arr.flatMap((value)=>{
-//     return value
-// })
-// console.log(newArr)
-// flatmap bu nested ichidagi arrylarni bitta qoshimcha qib beradi yani flat va mapni aralshmasi
-// // =========================================================================================
-// let arr = [1, 2, 3, 4]
-// let arr2 = [10, 20, 30, 40]
-// let newArr =  arr.fill([10, 20, 30], 4)
-// // console.log(newar)
-// // =====================================================
-// let arr = [1, 2, 3, 4]
-// let newArr = arr.copyWithin(0,2)
-// console.log(newArr)
+// let arr = [1, 2, 3, 4, 5];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   sum += arr[i];
+// }
+// console.log(sum); 
+// =================================================
+// let arr = [14, -8, 3, -7, 0, 9, -1]
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] >= 0) {
+//       console.log(arr[i]);
+//     }
+//   }
+// =======================================================
+// for ( let i = 10; i >= 1; i --){
+//     console.log(i)
+// }
+// =======================================================
+// for ( let i = -10; i <= -1; i++){
+//     console.log(i)
+// }
+// ======================================================
+// let arr = [ 1, 2, 3, 4, 5]
+// let a = arr.reduce((a, b)=> a+b ,0)
+// console.log(a)
+//  reduce - reduce arraydagi qiymatlarni yigindisini qaytaradi

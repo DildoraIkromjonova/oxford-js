@@ -1,34 +1,35 @@
-// let yigindi = 0
-// let juft = 0
-// let toq = 0
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-// for (let value of arr) {
-//     yigindi = yigindi + value
-
-//     if (value % 2) {
-//         juft = juft + value
-//     } else {
-//       toq = toq + value
+// obj = {
+//     name: "Ali",
+//     surName: "Valiyev",
+//     age: 40,
+//     child: {
+//         name: "Salim",
+//         surName: "Alimov",
+//         age: 20,
+//         getFullName() {
+//             console.log(
+//                 `Bu o'quvchining ismi: ${this.name},familyasi: ${this.surName}`
+//             )
+//         }
 //     }
 // }
-// console.log(yigindi)
-// console.log(juft)
-// console.log(toq)
-// =========================
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-let tubsonlar = [];
-for (let i = 0; i < arr.length; i++) {
-  let son = arr[i];
-  let tub = true;
-  if (son < 2) tub = false;
-  for (let j = 2; j < son; j++) {
-    if (son % j === 0) {
-      tub = false;
-      break;
-    }
-  }
-  if (tub) {
-    tubsonlar.push(son);
-  }
-}
-console.log( tubsonlar);
+// let newObj = Object.assign({}, obj, {
+//     child: Object.assign({}, obj.child)
+//   });
+//   newObj.child.name = "Eshmat"
+//   newObj.child.surName = "Toshmatov"
+//   obj.child.getFullName()
+//   newObj.child.getFullName()
+// ===============================================
+// let str = "Algoritm_6 and Oxford_2.!"
+// let newstr = str.toLowerCase()
+// let result = ""
+// for(let value of newstr){
+//     if((value.toUpperCase() !== value) || (value=== " ")){
+//         result+=value
+//     }
+// }
+//  result = result.replace("a", "A")
+//  result = result.replace("ox", "Ox")
+//  console.log(result)
+// ==========================================

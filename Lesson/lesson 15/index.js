@@ -1,47 +1,41 @@
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let sum = 0;
-// arr.forEach((value) => {
-//   sum += value;
-// });
-// console.log(sum); 
-// // ===============================
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let newArr= arr.map((value,index,arr)=>{
+// let arr = [10, 20,4,5,7,9,2,3,8,1]
+//  let newArr=arr.sort((a , b)=>{
+// return a- b
+//  })
+// console.log(arr)
+// sort bu tartibszlarni tartibli qib beradi
+// =================================================
+// let arr = ["Olma, banan, ananas"]
+// let value = arr.every((value)=>{
+//     return value.includes("a")
+// })
+// console.log(value)
+// every bu barchasida bolsa true boladi
+// ====================================================
+// let arr = ["olma,banan,kivi"]
+// let newArr = arr.some((value)=>{
+//     return value.includes("k")
+// })
+// console.log(newArr)
+// some bu bittasi bosa true beradi 
+// =====================================================
+// let arr = [1, 2, [3, 4, [5, 6, [7, 8,]]]]
+// let newArr = arr.flat(3)
+// console.log(newArr)
+// flat bu nested arrylarni parchalab bitta aryga joylab beradi
+// ============================================================
+// let arr = [1, 2, [3, 4, [5, 6, [7, 8,]]]]
+// let newArr = arr.flatMap((value)=>{
 //     return value
 // })
 // console.log(newArr)
-// // ========================================
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let newArr = arr.filter(num => num % 2 === 0);
-// console.log( newArr); 
-// let arr = [1, 2, 3];
-// arr.forEach(function(value, index) {
-//   console.log(index, value, arr);
-// });
-// ===========================================
-// let arr = [1, 2, 3];
-// let result = arr.map(x => x * 2);
-// console.log(result);
-// =============================================
-// let arr = [1, 2, 3, 4, 5];
-// let result = arr.filter(x => x % 2 === 0);
-// console.log(result)
-// ============================================
-// let arr = [5, 12, 8, 130, 44];
-// let found = arr.find(x => x > 10);
-// console.log(found);
-// ============================================
-// let arr = [5, 12, 8, 130, 44];
-// let index = arr.findIndex(x => x > 100);
-// console.log(index);
-// =============================================
-// let arr = [5, 12, 8, 130, 44];
-// let index = arr.findLastIndex(x => x > 10);
-// console.log(index);
-// let arr = [1,2,3,4]
-// let arr2 = arr.map((value)=>{
-//     return 
-// })
-// console.log(arr2)
-
-
+// flatmap bu nested ichidagi arrylarni bitta qoshimcha qib beradi yani flat va mapni aralshmasi
+// // =========================================================================================
+// let arr = [1, 2, 3, 4]
+// let arr2 = [10, 20, 30, 40]
+// let newArr =  arr.fill([10, 20, 30], 4)
+// // console.log(newar)
+// // =====================================================
+// let arr = [1, 2, 3, 4]
+// let newArr = arr.copyWithin(0,2)
+// console.log(newArr)

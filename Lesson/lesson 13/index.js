@@ -1,35 +1,6 @@
-// obj = {
-//     name: "Ali",
-//     surName: "Valiyev",
-//     age: 40,
-//     child: {
-//         name: "Salim",
-//         surName: "Alimov",
-//         age: 20,
-//         getFullName() {
-//             console.log(
-//                 `Bu o'quvchining ismi: ${this.name},familyasi: ${this.surName}`
-//             )
-//         }
-//     }
-// }
-// let newObj = Object.assign({}, obj, {
-//     child: Object.assign({}, obj.child)
-//   });
-//   newObj.child.name = "Eshmat"
-//   newObj.child.surName = "Toshmatov"
-//   obj.child.getFullName()
-//   newObj.child.getFullName()
-// ===============================================
-// let str = "Algoritm_6 and Oxford_2.!"
-// let newstr = str.toLowerCase()
-// let result = ""
-// for(let value of newstr){
-//     if((value.toUpperCase() !== value) || (value=== " ")){
-//         result+=value
-//     }
-// }
-//  result = result.replace("a", "A")
-//  result = result.replace("ox", "Ox")
-//  console.log(result)
-// ==========================================
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [6,7,8,9,10]
+// let arr = arr1.concat(arr2)
+// let newArr = arr.slice(3, 9)
+// console.log(newArr)
+// console.log(arr)

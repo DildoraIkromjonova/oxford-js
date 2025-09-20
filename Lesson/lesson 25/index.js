@@ -13,4 +13,3 @@
 
 // spread operatori - ... copy, merge tarqatish uchun ishlatiladi
 // rest operatori - ... arrayga yig'ish uchun 
-let str = "Algoritm 2016"
