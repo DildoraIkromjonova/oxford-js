@@ -1,28 +1,28 @@
 // let sana = new Date()
 
 // let hozirgiSoat = sana.getHours()
-// console.log(hozirgiSoat)
+// console.log(hozirgiSoat) - hozirgi soat
 
 // let hozirgiDaqiqa = sana.getMinutes()
-// console.log(hozirgiDaqiqa)
+// console.log(hozirgiDaqiqa) - hozirgi daqiqa
 
 // let hozirgiYil = sana.getFullYear()
-// console.log(hozirgiYil)
+// console.log(hozirgiYil) - hozirgi to'liq yil
 
 // let hozirgiSana = sana.getDay()
-// console.log(hozirgiSana)
+// console.log(hozirgiSana) - hozirgi hafta kuni va  0 dan boshlanadi 
 
 // let bugungiSana = sana.getDate()
-// // console.log(bugungiSana)
+// // console.log(bugungiSana)  - hozirgi sana 
 
 // let oy = sana.getMonth()
-// // console.log(oy)
+// // console.log(oy) - hozirgi oy va 0 dan boshlanadi
 
 // let toliqVaqt = sana.getTime()
-// // console.log(toliqVaqt)
+// // console.log(toliqVaqt) - 1970 yil 1 yanvardan hozirgi vaqtgacha bo'lgan millisekundlar
 
 // let hozirgiSekund = sana.getSeconds()
-// // console.log(hozirgiSekund)
+// // console.log(hozirgiSekund) - hozirgi sekund
 
 // console.log(sana.toDateString())
 // console.log(sana.toISOString())
@@ -30,6 +30,10 @@
 // console.log(sana.toLocaleString())
 // console.log(sana.toTimeString())
 // console.log(sana.toLocaleDateString().split("/").join(":"))
+// =============================================================================
+// ==============================================================================
+// ==============================================================================
+// ================================================================================
 // let user = {
 //   ism:"Ali",
 //   yosh:20,
@@ -137,9 +141,6 @@
 // // arr.clear - setdagi qiymatlarni tozalash uchun
 // // arr.size - setdagi barcha qiymatlar soni
 // // arr.has- setda biz bergan qiymat bor yoki yoqligini tekshiradi
-
-
-
 
 
 

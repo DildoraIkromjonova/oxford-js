@@ -59,3 +59,39 @@
 //   return(flower1 % 2 !== flower2 % 2)
 // }
 // console.log(lovefunc(1,4))
+// ============================================
+// function maps(x){
+// let arr = []
+// for
+// }
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+//     return distanceToPump / mpg <= fuelLeft
+// }
+// console.log(zeroFuel(50,25,2))
+// ===========================================
+// function check(a, x) {
+//   return a.includes(x)
+// }
+// console.log(check(1,2,3,4,5),4)
+// =========
+// const quarterOf = (month) => {
+//    if(month <= 3){
+//     return
+//    }else if(month <= 6){
+//     return 2
+//    } else if (month <= 9){
+//     return 3
+//    } else{
+//     return 4
+//    }
+// }
+// =========================================
+// function powersOfTwo(n){
+//   let arr = []
+//      for( let i =0;i<=n;i++){
+//       arr.push(2**i)
+//      }
+//      return arr
+// }
+// console.log(powersOfTwo(0, [1]))
+// ==================================================
