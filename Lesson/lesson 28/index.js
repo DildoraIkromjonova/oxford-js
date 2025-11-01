@@ -1,97 +1,31 @@
-// function squareSum(numbers){
-//   let sum = numbers.reduce((acc,current)=> {
-//     return acc +current **2
-//   } , 0)
-//   return sum
-//   }
+// setTimeOut - bu window metodi bolib 3 ta argument oladi,bular 1 chisi callaback function, 2 chisi timer millisekundda, 3 chisi callback functionga argument ,bu settimeout biz bergan timerdan song 1 marta ishlaydi
+// setTimeout(()=>{
+//   console.log("Assalomu aleykum")
+// } ,1000)
 
-// console.log(squareSum([]))
-// =======================================
-// function findSmallestInt(arr){
-//   return Math.min(...arr)
-// }
-// console.log(findSmallestInt([34,15,88,2]))
-// ===============================================
-// const stringToNumber = function(str){
-//   let num = Number(str)
-//   return num
-// }
-// console.log(stringToNumber("1234"))
-// =============================================
-// var summation = function (num) {
-//   let sum = 0
-//   for(let i = 1; i <= num; i++){
-//     sum += i
-//   }
-//   return sum
-// }
-// console.log(summation(8))
-// ======================================
-// function countSheeps(sheep) {
-//   return sheep.filter(Boolean).length
-// }
-// console.log(countSheeps([true,true,false]))
-// =============================================
-// function noSpace(x){
-//    return x.replaceAll(" "," ")
-//   }
-//   console.log(noSpace("8 j 8  mBliB8g imjB8B8 jl B"))
-// =================================================
-// function booleanToString(b){
-//   return b.toString()
-// }
-// console.log(booleanToString(true))
-// =====================================================
-// function sum (numbers) {
-//   return numbers.reduce((acc,current)=> acc +current ,0)
-// }
-// console.log(sum([1,2,3,4]))
-// ==============================
-// function digitize(n) {
-//   return String(n)     
-//     .split("")        
-//     .map(Number)       
-//     .reverse();       
-// }
-// console.log(digitize(35231))
-// ============================================
-// function lovefunc(flower1, flower2){
-//   return(flower1 % 2 !== flower2 % 2)
-// }
-// console.log(lovefunc(1,4))
-// ============================================
-// function maps(x){
-// let arr = []
-// for
-// }
-// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-//     return distanceToPump / mpg <= fuelLeft
-// }
-// console.log(zeroFuel(50,25,2))
-// ===========================================
-// function check(a, x) {
-//   return a.includes(x)
-// }
-// console.log(check(1,2,3,4,5),4)
-// =========
-// const quarterOf = (month) => {
-//    if(month <= 3){
-//     return
-//    }else if(month <= 6){
-//     return 2
-//    } else if (month <= 9){
-//     return 3
-//    } else{
-//     return 4
-//    }
-// }
-// =========================================
-// function powersOfTwo(n){
-//   let arr = []
-//      for( let i =0;i<=n;i++){
-//       arr.push(2**i)
-//      }
-//      return arr
-// }
-// console.log(powersOfTwo(0, [1]))
-// ==================================================
+// let timer1 = setTimeout((a,b)=>{
+// console.log(a+b)
+// },1000,10,20)
+// // clearTimeout - bu id number oladigan metod va bu id berilsa idga tegishli setTimerOutni toxtatadi.
+// clearTimeout(timer1)
+// =========================================================================================================
+//  setInterval - bu window metodi bolib 3 ta argument oladi,bular 1 chisi callaback function, 2 chisi timer millisekundda, 3 chisi callback functionga argument ,bu setInterval biz bergan timerdan song doim  ishlaydi
+// let timer2 = setInterval((a,b)=>{
+//   console.log(a+b)
+// },1000,10,20)
+
+// setInterval(()=>{
+//   console.log("salom dunyo")
+// } ,4000)
+// // clearInterval- bu id number oladigan metod va bu id berilsa idga tegishli seninterval ni  toxtatadi.
+// clearInterval(timer2)
+
+
+
+// =========================================================================================================
+// const displaytimer = document.querySelector(".timer")
+// const startBtn = document.querySelector(".start_btn")
+// const resetBtn = document.querySelector(".reset_btn")
+
+// let startTime=0
+// let totalTime = 0
